@@ -147,7 +147,7 @@ if ( ! class_exists( 'wbsPress_img_rebuilder' ) ) :
 	  }
 
 	  public function recreate_img_tag( $tag ) {
-	    // Supress SimpleXML errors
+	    // Suppress SimpleXML errors
 	    libxml_use_internal_errors( true );
 
 	    try {
